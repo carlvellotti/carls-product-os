@@ -2,17 +2,14 @@
 
 **A Personal Operating System for Claude Code**
 
----
-
 ## Introduction
 
-The biggest question I get after my Claude Code course: *"How should I set up my space?"*
+The biggest question I get after people finish my [Claude Code for PMs](https://ccforpms.com/) or [for Everyone](https://ccforeveryone.com/) courses: **"How should I set up my space?"**
 
 Claude Code is infinitely flexible. There's no single right way to organize it, which is both liberating and paralyzing. This repo shows how I personally use Claude Code day-to-day, plus the principles behind each decision.
 
 This setup is battle-tested across content creation, product work, and running a small business. But it's not gospel. Try things, break things, and see what actually works for your workflow.
 
----
 
 ## Structure Overview
 
@@ -32,8 +29,6 @@ This setup is battle-tested across content creation, product work, and running a
 | `Tools/` | Scripts, utilities, and automations. |
 | `_Registry/` | System reference and documentation. |
 | `_temp/` | Drop zone for files in transit. |
-
----
 
 ## Key Concepts
 
@@ -58,8 +53,6 @@ This setup is battle-tested across content creation, product work, and running a
 
 *Your company's brand guidelines go in Knowledge. Competitor research for a specific launch goes in the project.*
 
----
-
 ## Getting Started
 
 1. **Browse `EXAMPLE-OS/`** — See a working example with real content
@@ -68,8 +61,6 @@ This setup is battle-tested across content creation, product work, and running a
 4. **Add workflows and skills as you repeat things** — Don't over-engineer upfront
 
 You don't need everything on day one. Start minimal, add structure when friction appears.
-
----
 
 ## FAQ
 
@@ -91,8 +82,6 @@ Depends on scope:
 - Skills are quick commands triggered with `/skillname`
 - Workflows are fuller processes, often with their own context files
 - Start with workflows. Promote to skills when you want faster access.
-
----
 
 ## About
 
