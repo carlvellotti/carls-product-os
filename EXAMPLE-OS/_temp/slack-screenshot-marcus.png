@@ -1,0 +1,18 @@
+[PLACEHOLDER - This would be an image file]
+
+This represents a screenshot from Slack of a conversation with Marcus.
+
+In practice, this _temp folder is used for:
+- Quick screenshots dropped from clipboard
+- Files shared in Slack/email that need processing
+- Temporary exports from other tools
+- Anything that doesn't have a permanent home yet
+
+This particular "file" represents a screenshot of Marcus saying:
+"Can you put together a quick summary of where we're at with the gradebook
+redesign? Leadership is asking for an update before the board meeting next week."
+
+Files in _temp should be processed and either:
+1. Moved to a permanent location
+2. Incorporated into a proper document
+3. Deleted once no longer needed

@@ -1,0 +1,43 @@
+{
+  "amplitude": {
+    "enabled": true,
+    "endpoint": "https://amplitude.com/api/2",
+    "api_key_env": "AMPLITUDE_API_KEY",
+    "api_secret_env": "AMPLITUDE_API_SECRET",
+    "project_id": "123456",
+    "metrics": [
+      "dau",
+      "wau",
+      "session_duration_avg",
+      "grades_entered"
+    ]
+  },
+  "mixpanel": {
+    "enabled": true,
+    "endpoint": "https://mixpanel.com/api/2.0",
+    "api_secret_env": "MIXPANEL_API_SECRET",
+    "project_id": "789012",
+    "metrics": [
+      "feature_adoption_gradebook",
+      "feature_adoption_reports"
+    ]
+  },
+  "database": {
+    "enabled": true,
+    "connection_string_env": "ANALYTICS_DB_URL",
+    "metrics": [
+      "new_signups",
+      "schools_active",
+      "nps_score"
+    ]
+  },
+  "defaults": {
+    "period_days": 7,
+    "compare_to": "previous_period",
+    "output_format": "markdown"
+  },
+  "alerts": {
+    "dau_drop_threshold": -10,
+    "nps_drop_threshold": -5
+  }
+}
