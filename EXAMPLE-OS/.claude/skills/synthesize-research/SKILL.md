@@ -1,16 +1,19 @@
+---
+name: synthesize-research
+description: Turn raw interview notes into structured insights with patterns and quotes
+argument-hint: "[path-to-research-folder]"
+user-invocable: true
+---
+
 # Research Synthesizer
 
 Synthesize findings across multiple research files into actionable insights.
-
-## Trigger
-
-User says: "synthesize research", "summarize research for {{topic}}", "what did we learn about {{topic}}"
 
 ## Instructions
 
 1. **Locate Research Files**
    - Search for interview notes, research summaries related to the topic
-   - Include: `interview-notes-*.md`, `research-summary-*.md`
+   - Include: `interview-*.md`, `research-summary-*.md`
    - Check `_temp/` for quick notes that might be relevant
 
 2. **Extract Key Data**
@@ -44,9 +47,6 @@ User says: "synthesize research", "summarize research for {{topic}}", "what did 
    - **Evidence:** {{summary}}
    - **Key Quote:** "{{quote}}" — P{{X}}
 
-   #### 2. {{Finding}}
-   ...
-
    ### Patterns & Themes
 
    | Theme | Frequency | Segments Most Affected |
@@ -66,22 +66,11 @@ User says: "synthesize research", "summarize research for {{topic}}", "what did 
    ```
 
 5. **Link to Sources**
-   - Include wikilinks to all source documents
+   - Include references to all source documents
    - Make findings traceable
-
-## Example
-
-**User:** "synthesize research on grading workflow"
-
-**Claude:**
-1. Finds: `interview-notes-teacher-01.md`, `interview-notes-teacher-02.md`, `research-summary-grading-pain-points.md`
-2. Extracts findings about grading workflow from each
-3. Identifies that 4/5 teachers mentioned "batch grading" as a pain point
-4. Outputs synthesis with recommendations
 
 ## Notes
 
-- Preserve participant anonymity (use IDs, not names)
 - Weight findings by recency if research spans long periods
 - Call out when sample size is too small for confidence
 - Suggest follow-up research for low-confidence areas
